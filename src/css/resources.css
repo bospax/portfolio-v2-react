@@ -1,0 +1,42 @@
+.resources ol {
+	display: flex;
+	flex-flow: column wrap;
+	padding: 10px;
+}
+
+.resources ol li {
+	margin-top: 12px;
+	color: var(--c-grey-500);
+	border: 1px solid var(--c-grey-200);
+	border-radius: 6px;
+	padding: 16px;
+	font-size: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 16px;
+
+	a {
+		color: var(--c-grey-500);
+		font-weight: 500;
+		text-decoration: none;
+		&:hover,
+		&:focus {
+			outline: 0;
+			color: #c3e88d;
+		}
+
+		p {
+			font-size: 12px;
+			color: var(--c-grey-400);
+		}
+	}
+
+	&::before {
+		content: '';
+		width: 1em;
+		min-width: 1em;
+		height: 1em;
+		background-color: #505050;
+		display: block;
+	}
+}
