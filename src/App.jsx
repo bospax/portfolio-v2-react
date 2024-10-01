@@ -1,4 +1,6 @@
 import ProfileImage from './assets/images/avatar.jpg';
+import { ParticleJS } from './components/ParticlesJS';
+import { TypedJS } from './components/TypedJS';
 
 function App() {
 	return (
@@ -6,7 +8,7 @@ function App() {
 			<div className="container">
 				<div className="callout">
 					<span>👋 </span>
-
+					<TypedJS />
 					<p className="callout-description">
 						A Software Developer with over 5 years of professional
 						development experience. I&apos;m a passionate programmer
@@ -60,6 +62,8 @@ function App() {
 					</div>
 				</section>
 			</div>
+
+			<ParticleJS />
 		</>
 	);
 }
