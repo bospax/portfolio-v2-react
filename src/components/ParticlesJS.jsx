@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export const ParticleJS = () => {
+const ParticleJS = () => {
 	useEffect(() => {
 		window.particlesJS.load(
 			'particles-js',
@@ -13,3 +13,5 @@ export const ParticleJS = () => {
 
 	return <div id="particles-js"></div>;
 };
+
+export default ParticleJS;

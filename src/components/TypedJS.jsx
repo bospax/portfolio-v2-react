@@ -1,7 +1,7 @@
 import Typed from 'typed.js';
 import { useEffect } from 'react';
 
-export const TypedJS = () => {
+const TypedJS = () => {
 	useEffect(() => {
 		// initialize Typed.js
 		const typed = new Typed('#typing-element', {
@@ -19,3 +19,5 @@ export const TypedJS = () => {
 
 	return <h1 id="typing-element" className="callout-title"></h1>;
 };
+
+export default TypedJS;
