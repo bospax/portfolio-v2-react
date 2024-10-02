@@ -1,10 +1,13 @@
-import ProfileImage from '../assets/images/avatar.jpg';
+import { ASSETS_PATH_IMAGES } from '../libs/constants';
 
 const Profile = () => {
 	return (
 		<div className="profile">
 			<div className="profile-avatar">
-				<img src={ProfileImage} alt="Jose Pacheco Jr." />
+				<img
+					src={`${ASSETS_PATH_IMAGES}avatar.jpg`}
+					alt="Jose Pacheco Jr."
+				/>
 			</div>
 			<div className="profile-description">
 				<h1>Jose Pacheco Jr.</h1>

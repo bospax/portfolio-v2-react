@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import ParticleJS from '../components/ParticlesJS';
 import Profile from '../components/Profile';
 import NavBar from '../components/NavBar';
+import { Outlet } from 'react-router-dom';
 
 const MainLayout = () => {
 	return (
@@ -12,7 +13,7 @@ const MainLayout = () => {
 				<Profile />
 				<NavBar />
 				<article id="content">
-					{/* this is where the content will show after navigating of nav items */}
+					<Outlet />
 				</article>
 				<Footer />
 			</div>

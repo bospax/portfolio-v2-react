@@ -1,12 +1,19 @@
 const Footer = () => {
 	return (
 		<section className="contact">
-			<div className="links">
-				<p>Connect with me to discuss further:</p>
-				<a href="#">Email</a>
-				<a href="#">LinkedIn</a>
-				<a href="#">CV</a>
-			</div>
+			<p>Connect with me to discuss further:</p>
+			<br />
+			<ul className="links">
+				<li>
+					<a href="#">Email</a> josedpachecojr@gmail.com
+				</li>
+				<li>
+					<a href="#">LinkedIn</a> linkedin.com/in/josepachecojr
+				</li>
+				<li>
+					<a href="#">CV</a> tinyurl.com/259rkxut
+				</li>
+			</ul>
 		</section>
 	);
 };

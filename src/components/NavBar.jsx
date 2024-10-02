@@ -1,21 +1,23 @@
+import { NavLink } from 'react-router-dom';
+
 const NavBar = () => {
 	return (
 		<nav>
-			<button className="nav-item active" data-file="timeline.html">
+			<NavLink to="/" className="nav-item">
 				CAREER
-			</button>
-			<button className="nav-item" data-file="skills.html">
+			</NavLink>
+			<NavLink to="skills" className="nav-item">
 				SKILLS
-			</button>
-			<button className="nav-item" data-file="projects.html">
+			</NavLink>
+			<NavLink to="projects" className="nav-item">
 				PROJECTS
-			</button>
-			<button className="nav-item" data-file="workflow.html">
+			</NavLink>
+			<NavLink to="workflows" className="nav-item">
 				WORKFLOW
-			</button>
-			<button className="nav-item" data-file="resources.html">
+			</NavLink>
+			<NavLink to="resources" className="nav-item">
 				RESOURCES
-			</button>
+			</NavLink>
 		</nav>
 	);
 };
