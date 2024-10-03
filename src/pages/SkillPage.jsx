@@ -1,4 +1,4 @@
-const Skills = () => {
-	return <div>Skills</div>;
+const SkillPage = () => {
+	return <div>SkillPage</div>;
 };
-export default Skills;
+export default SkillPage;

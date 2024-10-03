@@ -1,6 +1,6 @@
 import CareerList from '../components/CareerList';
 
-const Careers = () => {
+const CareerPage = () => {
 	return <CareerList />;
 };
-export default Careers;
+export default CareerPage;

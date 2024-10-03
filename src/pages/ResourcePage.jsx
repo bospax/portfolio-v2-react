@@ -1,4 +1,4 @@
-const Resources = () => {
-	return <div>Resources</div>;
+const ResourcePage = () => {
+	return <div>ResourcePage</div>;
 };
-export default Resources;
+export default ResourcePage;

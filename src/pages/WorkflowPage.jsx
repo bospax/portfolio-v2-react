@@ -1,4 +1,4 @@
-const Workflows = () => {
-	return <div>Workflows</div>;
+const WorkflowPage = () => {
+	return <div>WorkflowPage</div>;
 };
-export default Workflows;
+export default WorkflowPage;
