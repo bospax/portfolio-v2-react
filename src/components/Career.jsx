@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-// import { ASSETS_PATH_IMAGES } from '../libs/constants';
+import { ASSETS_PATH_IMAGES } from '../libs/constants';
 
 const Career = ({ career }) => {
 	return (
@@ -10,7 +10,7 @@ const Career = ({ career }) => {
 			<div className="timeline-item-wrapper">
 				<div className="timeline-item-description">
 					<i className="avatar small">
-						<img src={career.logo} />
+						<img src={ASSETS_PATH_IMAGES + career.logo} />
 					</i>
 					<span>
 						<a href="#">{career.position}</a> worked at{' '}

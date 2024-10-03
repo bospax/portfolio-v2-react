@@ -7,9 +7,9 @@ const CareerList = () => {
 	return (
 		<article>
 			<ol className="timeline">
-				{careerData.map((career, index) => {
-					<Career key={index} career={career} />;
-				})}
+				{careerData.map((career, index) => (
+					<Career key={index} career={career} />
+				))}
 			</ol>
 		</article>
 	);
