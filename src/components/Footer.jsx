@@ -5,13 +5,22 @@ const Footer = () => {
 			<br />
 			<ul className="links">
 				<li>
-					<a href="#">Email</a> josedpachecojr@gmail.com
+					<a href="#" className="highlight">
+						Email
+					</a>{' '}
+					josedpachecojr@gmail.com
 				</li>
 				<li>
-					<a href="#">LinkedIn</a> linkedin.com/in/josepachecojr
+					<a href="#" className="highlight">
+						LinkedIn
+					</a>{' '}
+					linkedin.com/in/josepachecojr
 				</li>
 				<li>
-					<a href="#">CV</a> tinyurl.com/259rkxut
+					<a href="#" className="highlight">
+						CV
+					</a>{' '}
+					tinyurl.com/259rkxut
 				</li>
 			</ul>
 		</section>

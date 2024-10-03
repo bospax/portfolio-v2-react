@@ -14,9 +14,15 @@ const Profile = () => {
 				<p>Software Developer / Web App Designer</p>
 				<div className="links">
 					<p>Connect with me:</p>
-					<a href="#">Email</a>
-					<a href="#">LinkedIn</a>
-					<a href="#">CV</a>
+					<a href="#" className="highlight">
+						Email
+					</a>
+					<a href="#" className="highlight">
+						LinkedIn
+					</a>
+					<a href="#" className="highlight">
+						CV
+					</a>
 				</div>
 			</div>
 		</div>
