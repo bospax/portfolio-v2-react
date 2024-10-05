@@ -172,7 +172,7 @@ export default [
 		],
 	},
 	{
-		category: 'Testing',
+		category: 'Unit Testing',
 		techs: [
 			{ id: 1, name: 'PHPUnit', code: 'Pu', image: `${icon_cdn}` },
 			{

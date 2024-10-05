@@ -1,27 +1,22 @@
+import Link from './Link';
+import LinkData from '../data/links';
+
 const Footer = () => {
 	return (
 		<section className="contact">
 			<p>Connect with me to discuss further:</p>
 			<br />
 			<ul className="links">
-				<li>
-					<a href="#" className="highlight">
-						Email
-					</a>{' '}
-					josedpachecojr@gmail.com
-				</li>
-				<li>
-					<a href="#" className="highlight">
-						LinkedIn
-					</a>{' '}
-					linkedin.com/in/josepachecojr
-				</li>
-				<li>
-					<a href="#" className="highlight">
-						CV
-					</a>{' '}
-					tinyurl.com/259rkxut
-				</li>
+				{LinkData.map((link, index) => (
+					<li key={index}>
+						<Link
+							link={link.link}
+							label={link.label}
+							target={link.target}
+						/>
+						{' ' + link.description}
+					</li>
+				))}
 			</ul>
 		</section>
 	);
