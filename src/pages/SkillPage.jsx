@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import SkillList from '../components/SkillList';
 
 const SkillPage = () => {
@@ -9,9 +10,9 @@ const SkillPage = () => {
 					Here are my arsenal of development technologies. For more
 					practical and comprehensive use cases of my skills check out
 					my{' '}
-					<a href="#" className="highlight">
+					<Link to="/projects" className="highlight">
 						Projects
-					</a>
+					</Link>
 					.
 				</p>
 			</div>
