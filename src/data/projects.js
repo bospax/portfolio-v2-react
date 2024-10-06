@@ -4,7 +4,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-sedar-recruitment',
-		image_count: 6,
+		image_count: 10,
 		category: 'webapp',
 	},
 	{
@@ -12,7 +12,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-metro',
-		image_count: 6,
+		image_count: 4,
 		category: 'webapp',
 	},
 	{
@@ -20,7 +20,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-cedar-policy-module',
-		image_count: 6,
+		image_count: 4,
 		category: 'webapp',
 	},
 	{
@@ -36,7 +36,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-genus-falcon',
-		image_count: 6,
+		image_count: 8,
 		category: 'webapp',
 	},
 	{
@@ -44,7 +44,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-genus-hawk',
-		image_count: 6,
+		image_count: 5,
 		category: 'webapp',
 	},
 	{
@@ -52,7 +52,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-publicpulse',
-		image_count: 6,
+		image_count: 7,
 		category: 'webapp',
 	},
 	{
@@ -60,7 +60,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-auction',
-		image_count: 6,
+		image_count: 3,
 		category: 'webapp',
 	},
 	{
@@ -68,7 +68,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'rdf-freshoptions',
-		image_count: 6,
+		image_count: 8,
 		category: 'design',
 	},
 	{
@@ -76,7 +76,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'icg-wordpress-infinity',
-		image_count: 10,
+		image_count: 3,
 		category: 'design',
 	},
 	{
@@ -84,7 +84,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'icg-wordpress-rayomarine',
-		image_count: 6,
+		image_count: 4,
 		category: 'module',
 	},
 	{
@@ -92,7 +92,7 @@ export default [
 		link: '#',
 		description: '',
 		image_folder: 'icg-wordpress-strata',
-		image_count: 6,
+		image_count: 3,
 		category: 'module',
 	},
 	{

@@ -1,4 +1,6 @@
 import { ASSETS_PATH_IMAGES } from '../libs/constants';
+import LinkData from '../data/links';
+import Link from './Link';
 
 const Profile = () => {
 	return (
@@ -14,15 +16,15 @@ const Profile = () => {
 				<p>Software Developer / Web App Designer</p>
 				<div className="links">
 					<p>Connect with me:</p>
-					<a href="#" className="highlight">
-						Email
-					</a>
-					<a href="#" className="highlight">
-						LinkedIn
-					</a>
-					<a href="#" className="highlight">
-						CV
-					</a>
+
+					{LinkData.map((link, index) => (
+						<Link
+							key={index}
+							link={link.link}
+							label={link.label}
+							target={link.target}
+						/>
+					))}
 				</div>
 			</div>
 		</div>
