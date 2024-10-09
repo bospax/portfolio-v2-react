@@ -5,7 +5,7 @@ const RenderSymbol = ({ tech }) => {
 	const [imageError, setImageError] = useState(false);
 
 	const handleImageError = () => {
-		setImageError(true); // Set error state when image fails to load
+		setImageError(true);
 	};
 
 	return (

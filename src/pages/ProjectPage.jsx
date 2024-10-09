@@ -20,7 +20,7 @@ const ProjectPage = () => {
 			<div className="alert">
 				<span>🔥</span>
 				<p>
-					I have also created interesting features to showcase my
+					I have also created interesting stuff to showcase my
 					knowledge of advanced technologies. Filter by &apos;
 					<a
 						href="#"

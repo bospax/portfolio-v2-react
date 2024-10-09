@@ -4,28 +4,7 @@ import { useState } from 'react';
 import Modal from './Modal';
 import Link from './Link';
 import LinkData from '../data/links';
-
-import Slider from 'react-slick';
-
-const SimpleSlider = ({ images }) => {
-	var settings = {
-		dots: false,
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-	};
-
-	return (
-		<Slider {...settings}>
-			{images.map((image, index) => (
-				<div key={index}>
-					<img src={image} alt="" />
-				</div>
-			))}
-		</Slider>
-	);
-};
+import SimpleSlider from './Slider';
 
 const Project = ({ project }) => {
 	const [isModalOpen, setModalOpen] = useState(false);
@@ -44,9 +23,6 @@ const Project = ({ project }) => {
 	return (
 		<>
 			<div
-				data-bs-toggle="offcanvas"
-				data-bs-target="#offcanvasExample"
-				aria-controls="offcanvasExample"
 				className="project-item"
 				style={{
 					background: `url(${images[2]}) center center / cover no-repeat`,
@@ -83,10 +59,6 @@ const Project = ({ project }) => {
 			</Modal>
 		</>
 	);
-};
-
-SimpleSlider.propTypes = {
-	images: PropTypes.array,
 };
 
 Project.propTypes = {

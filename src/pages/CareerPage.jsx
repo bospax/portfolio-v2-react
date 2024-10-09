@@ -1,6 +1,10 @@
 import CareerList from '../components/CareerList';
 
 const CareerPage = () => {
-	return <CareerList />;
+	return (
+		<>
+			<CareerList />
+		</>
+	);
 };
 export default CareerPage;
