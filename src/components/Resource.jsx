@@ -4,7 +4,7 @@ const Resource = ({ resource }) => {
 	return (
 		<>
 			<li>
-				<a href={resource.link}>
+				<a target="_blank" href={resource.link}>
 					<h5>{resource.label}</h5>
 					<p>{resource.description}</p>
 				</a>

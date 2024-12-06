@@ -10,7 +10,10 @@ const Workflow = () => {
 
 	return (
 		<>
-			<Loader isLoading={isLoading} />
+			<Loader
+				isLoading={isLoading}
+				customMessage="Waiting for Coggle.it resources..."
+			/>
 
 			<div
 				className="diagram"
@@ -19,7 +22,7 @@ const Workflow = () => {
 				<iframe
 					width="100%"
 					height="480"
-					src="https://embed.coggle.it/diagram/Zqmxipnzn8szSGIu/c346d2a6b0a79cf54317ca688b62b8202ceb705fd2728e64ac1a2d9a5c742f0c"
+					src="https://coggle.it/diagram/ZzVpcwaoDqinBuvs/t/software-development-workflow/3245cfca7ab77a8791d0eb62d6a916833ca6c6a2550d83e33dec73eed1984251"
 					allowFullScreen
 					onLoad={handleIframeLoaded}
 				></iframe>

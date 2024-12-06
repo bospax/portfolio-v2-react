@@ -1,26 +1,26 @@
 export default [
+	// {
+	// 	label: 'Documentation',
+	// 	description:
+	// 		'An actual documentation of the Sedar system for requirements and specifications.',
+	// 	link: '#',
+	// },
 	{
-		label: 'Documentation',
+		label: 'Custom Code Archive',
 		description:
-			'An actual documentation of the Sedar system for requirements and specifications.',
-		link: '#',
-	},
-	{
-		label: 'Custom Code Library',
-		description:
-			'In my years of development, I have always create documentation for reference.',
-		link: '#',
+			'In my years of development, I have always created my own documentation for reference.',
+		link: 'https://codebible.netlify.app/',
 	},
 	{
 		label: 'Useful Links & Resource',
 		description:
-			'View the site I created to show my collections of bookmarks and resources.',
-		link: '#',
+			'Check out the site I created to showcase my collection of bookmarks and resources.',
+		link: 'https://resourcebookmarks.netlify.app/',
 	},
-	{
-		label: 'Test Cases / User Scenarios',
-		description:
-			'Templates I use to create test cases and user&apos;s stories to test applications.',
-		link: '#',
-	},
+	// {
+	// 	label: 'Test Cases / User Scenarios',
+	// 	description:
+	// 		"Templates I use to create test cases and user's stories to test applications.",
+	// 	link: '#',
+	// },
 ];

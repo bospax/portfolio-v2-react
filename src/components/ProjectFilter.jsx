@@ -20,14 +20,14 @@ const ProjectFilter = ({ selectedFilter, onFilterClick }) => {
 			>
 				MODULES
 			</button>
-			<button
+			{/* <button
 				className={`filter-item ${
 					selectedFilter === 'design' ? 'active' : ''
 				}`}
 				onClick={() => onFilterClick('design')}
 			>
 				DESIGNS
-			</button>
+			</button> */}
 		</div>
 	);
 };

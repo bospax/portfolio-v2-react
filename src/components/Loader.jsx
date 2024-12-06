@@ -1,11 +1,14 @@
 import PropTypes from 'prop-types';
 
-const Loader = ({ isLoading }) => {
+const Loader = ({
+	isLoading,
+	customMessage = 'Loading content, please wait...',
+}) => {
 	return (
 		<>
 			{isLoading && (
 				<div id="loader">
-					<p>Loading content, please wait...</p>
+					<p>{customMessage}</p>
 				</div>
 			)}
 		</>
@@ -14,6 +17,7 @@ const Loader = ({ isLoading }) => {
 
 Loader.propTypes = {
 	isLoading: PropTypes.bool,
+	customMessage: PropTypes.string,
 };
 
 export default Loader;

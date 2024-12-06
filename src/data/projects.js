@@ -69,7 +69,7 @@ export default [
 		description: '',
 		image_folder: 'rdf-freshoptions',
 		image_count: 8,
-		category: 'design',
+		category: 'webapp',
 	},
 	{
 		name: 'Infinity Trading Corporation',
@@ -77,7 +77,7 @@ export default [
 		description: '',
 		image_folder: 'icg-wordpress-infinity',
 		image_count: 3,
-		category: 'design',
+		category: 'webapp',
 	},
 	{
 		name: 'Rayomarine Ecommerce',
@@ -85,7 +85,7 @@ export default [
 		description: '',
 		image_folder: 'icg-wordpress-rayomarine',
 		image_count: 4,
-		category: 'module',
+		category: 'webapp',
 	},
 	{
 		name: 'Smart Strata Listing',
@@ -93,7 +93,7 @@ export default [
 		description: '',
 		image_folder: 'icg-wordpress-strata',
 		image_count: 3,
-		category: 'module',
+		category: 'webapp',
 	},
 	{
 		name: 'VTG Travel & Tours Official Website',
@@ -101,6 +101,6 @@ export default [
 		description: '',
 		image_folder: 'vtg-website',
 		image_count: 6,
-		category: 'module',
+		category: 'webapp',
 	},
 ];

@@ -2,7 +2,7 @@
 	position: relative;
 	padding: 2.5em;
 	background-color: var(--c-blue-500);
-	border-radius: 6px;
+	border-radius: 3px;
 
 	.callout-title,
 	span {

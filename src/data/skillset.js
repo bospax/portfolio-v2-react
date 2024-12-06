@@ -59,6 +59,7 @@ export default [
 				code: 'Re',
 				image: `${icon_cdn}/redis/redis-original.svg`,
 			},
+			{ id: 4, name: 'React Query', code: 'Qy', image: `${icon_cdn}` },
 		],
 	},
 	{
@@ -88,7 +89,7 @@ export default [
 				code: 'Tw',
 				image: `${icon_cdn}/tailwindcss/tailwindcss-original.svg`,
 			},
-			{ id: 3, name: 'Radix UI', code: 'Ru', image: `${icon_cdn}` },
+			{ id: 3, name: 'Radix UI', code: 'Rx', image: `${icon_cdn}` },
 		],
 	},
 	{
