@@ -17,7 +17,7 @@ const ProjectPage = () => {
 
 	return (
 		<>
-			<div className="alert">
+			{/* <div className="alert">
 				<span>🔥</span>
 				<p>
 					I have also created interesting stuff to showcase my
@@ -35,7 +35,7 @@ const ProjectPage = () => {
 					&apos; to see the list.
 				</p>
 			</div>
-			<br />
+			<br /> */}
 			<div className="alert">
 				<span>⚙️</span>
 				<p>

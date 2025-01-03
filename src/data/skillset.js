@@ -53,12 +53,12 @@ export default [
 				image: `${icon_cdn}/redux/redux-original.svg`,
 			},
 			{ id: 3, name: 'RTK Query', code: 'Rq', image: `${icon_cdn}` },
-			{
-				id: 4,
-				name: 'Redis',
-				code: 'Re',
-				image: `${icon_cdn}/redis/redis-original.svg`,
-			},
+			// {
+			// 	id: 4,
+			// 	name: 'Redis',
+			// 	code: 'Re',
+			// 	image: `${icon_cdn}/redis/redis-original.svg`,
+			// },
 			{ id: 4, name: 'React Query', code: 'Qy', image: `${icon_cdn}` },
 		],
 	},
@@ -126,9 +126,9 @@ export default [
 			},
 			{
 				id: 2,
-				name: 'Firebase',
-				code: 'Fb',
-				image: `${icon_cdn}/firebase/firebase-original.svg`,
+				name: 'MongoDB',
+				code: 'Mg',
+				image: `${icon_cdn}/mongodb/mongodb-original.svg`,
 			},
 		],
 	},
@@ -188,12 +188,12 @@ export default [
 	{
 		category: 'CI/CD',
 		techs: [
-			{
-				id: 1,
-				name: 'Jenkins',
-				code: 'Je',
-				image: `${icon_cdn}`,
-			},
+			// {
+			// 	id: 1,
+			// 	name: 'Jenkins',
+			// 	code: 'Je',
+			// 	image: `${icon_cdn}`,
+			// },
 			{
 				id: 2,
 				name: 'Docker',
