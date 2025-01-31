@@ -133,9 +133,10 @@ export default [
 		],
 	},
 	{
-		category: 'API / Data Fetching',
+		category: 'Auth / Data Fetching',
 		techs: [
 			{ id: 1, name: 'Sanctum', code: 'Sc', image: `${icon_cdn}` },
+			{ id: 5, name: 'Passport', code: 'Pa', image: `${icon_cdn}` },
 			{ id: 2, name: 'REST API', code: 'Re', image: `${icon_cdn}` },
 			{ id: 3, name: 'Fetch API', code: 'Fe', image: `${icon_cdn}` },
 			{
