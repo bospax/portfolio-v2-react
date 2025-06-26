@@ -10,14 +10,14 @@ const NavBar = () => {
 				SKILLS
 			</NavLink>
 			<NavLink to="projects" className="nav-item">
-				PROJECTS
+				KEY PROJECTS
 			</NavLink>
-			<NavLink to="workflows" className="nav-item">
+			{/* <NavLink to="workflows" className="nav-item">
 				WORKFLOW
 			</NavLink>
 			<NavLink to="resources" className="nav-item">
 				RESOURCES
-			</NavLink>
+			</NavLink> */}
 		</nav>
 	);
 };

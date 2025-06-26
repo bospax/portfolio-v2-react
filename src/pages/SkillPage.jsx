@@ -7,13 +7,9 @@ const SkillPage = () => {
 			<div className="alert">
 				<span>🧪</span>
 				<p>
-					Here are my arsenal of development technologies. For more
-					practical and comprehensive use cases of my skills check out
-					my{' '}
-					<Link to="/projects" className="highlight">
-						Projects
-					</Link>
-					.
+					These are the development technologies and tools I’ve
+					mastered and actively use to build efficient, scalable, and
+					modern applications.
 				</p>
 			</div>
 			<div className="skills">

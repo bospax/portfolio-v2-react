@@ -9,17 +9,17 @@
 *,
 *:before,
 *:after {
-	scrollbar-color: #78908a var(--c-grey-300);
+	scrollbar-color: #c1c1c1 var(--c-grey-100);
 	scrollbar-width: thin;
 }
 
 :root {
-	--c-grey-100: #0d1117;
-	--c-grey-200: #161b22;
-	--c-grey-300: #222429;
-	--c-grey-400: #576e89;
-	--c-white-500: #ffffff;
-	--c-blue-500: #3f4249;
+	--c-grey-100: #f0f0f0;
+	--c-grey-200: #e5e5e5;
+	--c-grey-300: #ffffff;
+	--c-grey-400: #7a7a7a;
+	--c-white-500: #000000; /* inverse of dark mode white text */
+	--c-blue-500: #e0e4f5;
 	--space-small: 3em;
 }
 
@@ -55,19 +55,19 @@ nav .nav-item {
 	cursor: pointer;
 	text-align: center;
 	font-weight: 500;
-	border: 1px #fff dashed;
+	border: 1px #000 dashed;
 	transition: all 300ms ease-out 0s;
 	font-size: 1rem;
 	padding: 4px 10px;
-	color: #dadada;
+	color: #333;
 	flex: 1;
 	text-decoration: none;
 
 	&:hover,
 	&.active {
-		background-color: #fbfae1;
-		border: 1px #272325 dashed;
-		color: #272325;
+		background-color: #272325;
+		border: 1px #ccc dashed;
+		color: #fbfae1;
 	}
 }
 
@@ -84,7 +84,7 @@ nav .nav-item {
 
 .highlight {
 	font-weight: bold;
-	color: #d2691e;
+	color: #b44600;
 }
 
 .resources,
@@ -96,11 +96,11 @@ nav .nav-item {
 	font-weight: 400;
 	display: inline;
 	font-size: 1em;
-	color: #8a8a8a;
+	color: #4a4a4a;
 }
 
 .contact {
-	border: 1px #fff dashed;
+	border: 1px #000 dashed;
 	padding: 2em;
 }
 

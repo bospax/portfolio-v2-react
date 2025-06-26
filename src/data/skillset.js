@@ -10,12 +10,12 @@ export default [
 				code: 'Re',
 				image: `${icon_cdn}/react/react-original.svg`,
 			},
-			{
-				id: 6,
-				name: 'Vue',
-				code: 'Vu',
-				image: `${icon_cdn}/vuejs/vuejs-original.svg`,
-			},
+			// {
+			// 	id: 6,
+			// 	name: 'Vue',
+			// 	code: 'Vu',
+			// 	image: `${icon_cdn}/vuejs/vuejs-original.svg`,
+			// },
 			{
 				id: 4,
 				name: 'JavaScript',
@@ -45,21 +45,21 @@ export default [
 	{
 		category: 'Caching & State Management',
 		techs: [
-			{ id: 1, name: 'Context', code: 'Cx', image: `${icon_cdn}` },
+			{ id: 1, name: 'Context API', code: 'Cx', image: `${icon_cdn}` },
 			{
 				id: 2,
-				name: 'Redux',
+				name: 'Redux Toolkit',
 				code: 'Rx',
 				image: `${icon_cdn}/redux/redux-original.svg`,
 			},
-			{ id: 3, name: 'RTK Query', code: 'Rq', image: `${icon_cdn}` },
+			// { id: 3, name: 'RTK Query', code: 'Rq', image: `${icon_cdn}` },
 			// {
 			// 	id: 4,
 			// 	name: 'Redis',
 			// 	code: 'Re',
 			// 	image: `${icon_cdn}/redis/redis-original.svg`,
 			// },
-			{ id: 4, name: 'React Query', code: 'Qy', image: `${icon_cdn}` },
+			{ id: 4, name: 'React Query', code: 'Rq', image: `${icon_cdn}` },
 		],
 	},
 	{
@@ -107,12 +107,12 @@ export default [
 				code: 'La',
 				image: `${icon_cdn}/laravel/laravel-original.svg`,
 			},
-			{
-				id: 3,
-				name: 'Node.js',
-				code: 'Nd',
-				image: `${icon_cdn}/nodejs/nodejs-original.svg`,
-			},
+			// {
+			// 	id: 3,
+			// 	name: 'Node.js',
+			// 	code: 'Nd',
+			// 	image: `${icon_cdn}/nodejs/nodejs-original.svg`,
+			// },
 		],
 	},
 	{
@@ -124,12 +124,12 @@ export default [
 				code: 'Ms',
 				image: `${icon_cdn}/mysql/mysql-original.svg`,
 			},
-			{
-				id: 2,
-				name: 'MongoDB',
-				code: 'Mg',
-				image: `${icon_cdn}/mongodb/mongodb-original.svg`,
-			},
+			// {
+			// 	id: 2,
+			// 	name: 'MongoDB',
+			// 	code: 'Mg',
+			// 	image: `${icon_cdn}/mongodb/mongodb-original.svg`,
+			// },
 		],
 	},
 	{
@@ -157,37 +157,37 @@ export default [
 				code: 'So',
 				image: '',
 			},
-			{ id: 3, name: 'Pusher', code: 'Pu', image: `${icon_cdn}` },
-			{ id: 4, name: 'Reverb', code: 'Rv', image: `${icon_cdn}` },
+			// { id: 3, name: 'Pusher', code: 'Pu', image: `${icon_cdn}` },
+			// { id: 4, name: 'Reverb', code: 'Rv', image: `${icon_cdn}` },
 		],
 	},
+	// {
+	// 	category: 'Services',
+	// 	techs: [
+	// 		{ id: 1, name: 'cPanel', code: 'Cp', image: `${icon_cdn}` },
+	// 		{
+	// 			id: 2,
+	// 			name: 'AWS',
+	// 			code: 'Aw',
+	// 			image: `${icon_cdn}/amazonwebservices/amazonwebservices-plain-wordmark.svg`,
+	// 		},
+	// 	],
+	// },
+	// {
+	// 	category: 'Unit Testing',
+	// 	techs: [
+	// 		{ id: 1, name: 'PHPUnit', code: 'Pu', image: `${icon_cdn}` },
+	// 		{
+	// 			id: 2,
+	// 			name: 'Jest',
+	// 			code: 'Je',
+	// 			image: `${icon_cdn}/jest/jest-plain.svg`,
+	// 		},
+	// 		// { id: 3, name: 'Playwright', code: 'Pw', image: `${icon_cdn}` },
+	// 	],
+	// },
 	{
-		category: 'Services',
-		techs: [
-			{ id: 1, name: 'cPanel', code: 'Cp', image: `${icon_cdn}` },
-			{
-				id: 2,
-				name: 'AWS',
-				code: 'Aw',
-				image: `${icon_cdn}/amazonwebservices/amazonwebservices-plain-wordmark.svg`,
-			},
-		],
-	},
-	{
-		category: 'Unit Testing',
-		techs: [
-			{ id: 1, name: 'PHPUnit', code: 'Pu', image: `${icon_cdn}` },
-			{
-				id: 2,
-				name: 'Jest',
-				code: 'Je',
-				image: `${icon_cdn}/jest/jest-plain.svg`,
-			},
-			// { id: 3, name: 'Playwright', code: 'Pw', image: `${icon_cdn}` },
-		],
-	},
-	{
-		category: 'CI/CD',
+		category: 'Version Control / Containers',
 		techs: [
 			// {
 			// 	id: 1,
@@ -215,17 +215,17 @@ export default [
 			},
 		],
 	},
-	{
-		category: 'Logging and Monitoring',
-		techs: [
-			{
-				id: 1,
-				name: 'Sentry',
-				code: 'Se',
-				image: `${icon_cdn}/sentry/sentry-original.svg`,
-			},
-		],
-	},
+	// {
+	// 	category: 'Logging and Monitoring',
+	// 	techs: [
+	// 		{
+	// 			id: 1,
+	// 			name: 'Sentry',
+	// 			code: 'Se',
+	// 			image: `${icon_cdn}/sentry/sentry-original.svg`,
+	// 		},
+	// 	],
+	// },
 	{
 		category: 'Documentation',
 		techs: [
@@ -246,12 +246,12 @@ export default [
 				code: 'Fi',
 				image: `${icon_cdn}/figma/figma-original.svg`,
 			},
+			{ id: 2, name: 'Photoshop', code: 'Ps', image: `${icon_cdn}` },
 		],
 	},
 	{
 		category: 'Tools',
 		techs: [
-			{ id: 2, name: 'Photoshop', code: 'Ps', image: `${icon_cdn}` },
 			{
 				id: 3,
 				name: 'Postman',

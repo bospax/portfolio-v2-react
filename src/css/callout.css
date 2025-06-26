@@ -1,8 +1,10 @@
 .callout {
 	position: relative;
 	padding: 2.5em;
-	background-color: var(--c-blue-500);
+	/* background-color: var(--c-blue-500); */
 	border-radius: 3px;
+	border: dashed 1px #ccc;
+	margin-top: 40px;
 
 	.callout-title,
 	span {
@@ -11,7 +13,7 @@
 	}
 }
 
-.callout::after {
+/* .callout::after {
 	content: '';
 	clip-path: polygon(0px 0px, 100% 0px, 50% 100%);
 	background: var(--c-blue-500);
@@ -20,4 +22,4 @@
 	height: 20px;
 	bottom: -20px;
 	left: 40px;
-}
+} */

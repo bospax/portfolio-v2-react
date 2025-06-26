@@ -9,8 +9,8 @@ const MainLayout = () => {
 	return (
 		<>
 			<div className="container">
-				<Hero />
 				<Profile />
+				<Hero />
 				<NavBar />
 				<article id="content">
 					<Outlet />

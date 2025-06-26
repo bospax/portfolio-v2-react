@@ -39,18 +39,17 @@ const ProjectPage = () => {
 			<div className="alert">
 				<span>⚙️</span>
 				<p>
-					Also take a look at my{' '}
-					<Link to="/workflows" className="highlight">
-						Workflow
-					</Link>{' '}
-					for an overview of my development process.
+					Throughout my career, I have developed, enhanced, and
+					maintained high performance and reliable software solutions
+					across various domains, including but not limited to the
+					following categories:
 				</p>
 			</div>
 
-			<ProjectFilter
+			{/* <ProjectFilter
 				selectedFilter={selectedFilter}
 				onFilterClick={handleFilterClick}
-			/>
+			/> */}
 			<ProjectList projects={filteredProjects} />
 		</>
 	);

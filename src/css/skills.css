@@ -12,7 +12,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 15px;
-	border: 1px solid #505050;
+	border: 1px solid #ccc;
 	text-align: center;
 	transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -71,10 +71,10 @@
 	width: 20px;
 	height: 20px;
 	margin-right: 10px;
-	background-color: #505050;
+	background-color: #ccc;
 }
 
 .legend .legend-text {
 	font-size: 1em;
-	color: #c3e88d;
+	/* color: #c3e88d; */
 }

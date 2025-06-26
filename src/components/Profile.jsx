@@ -13,7 +13,7 @@ const Profile = () => {
 			</div>
 			<div className="profile-description">
 				<h1>Jose Pacheco Jr.</h1>
-				<p>Software Developer / Web App Designer</p>
+				<p>Software Developer</p>
 				<div className="links">
 					<p>Connect with me:</p>
 
