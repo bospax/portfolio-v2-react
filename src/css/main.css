@@ -74,12 +74,14 @@ nav .nav-item {
 .links {
 	display: flex;
 	gap: 10px;
+	flex-wrap: wrap;
 }
 
 .contact .links {
 	display: flex;
 	flex-flow: column;
 	gap: 10px;
+	overflow-wrap: break-word;
 }
 
 .highlight {
